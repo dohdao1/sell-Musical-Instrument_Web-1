@@ -9,95 +9,163 @@
 
     <body>
         <header>
-            <h1>Music Store</h1>
+          <nav>
+            <div class="logo">
+              <img src="../../resource/picture/logo.jpg.png" alt="Việt Nhạc Center">
+              <h1>Web Bán đàn</h1>
+            </div>
+            <ul class="nav-links">
+              <li><a href="#">Trang chủ</a></li>
+              <li><a href="#">Tài liệu học tập</a></li>
+              <li><a href="#">Sản phẩm</a>
+                <ul class="sub-menu">
+                <li><a href="#">Piano</a></li>
+                <li><a href="#">Organ</a></li>
+                <li><a href="#">Guitar</a></li>
+              </li>
+            </ul>
+              <li><a href="#">Liên hệ</a></li>
+            </ul>
+            <div class="search-bar">
+              <input type="search" placeholder="Search...">
+              <button>Search</button>
+            </div>
+            <ul class="user-actions">
+              <li><a href="#">Đăng nhập</a></li>
+              <li><a href="#">Đăng kí</a></li>
+            </ul>
+          </nav>
         </header>
-
         <main>
-            <div class="product">
-                <img src="../../resource/picture/guitar-Yamaha-GC22C.jpg" alt="Guitar">
-                <h2>Yamaha GC22C</h2>
-                <p class="description">"Được phát triển với bí quyết được đúc kết từ hàng thập kỷ xuyên suốt quá trình làm nhạc cụ thủ công, đàn guitar dòng GC đại diện cho dòng guitar cổ điển được thủ công tại Nhật Bản và Trung Quốc. Thợ thủ công của Yamaha chú ý đến từng chi tiết và lựa chọn các vật liệu gỗ tinh túy nhất để đảm bảo rằng mỗi nhạc cụ có chất lượng tốt nhất có thể.
-
-                    Mặt trước, mặt sau và hai bên đều được chế tạo bằng gỗ nguyên tấm. Một cây đàn guitar với sự hài hòa cân bằng từ bass đến treble, đáp ứng mong đợi của bạn.
-                    
-                    Kiểu dán đàn guitar CG Yamaha
-                    
-                    Mặt đàn bằng gỗ Solid Western Redcedar nguyên tấm
-                    
-                    Phần lưng và cạnh đàn từ gỗ Rosewood nguyên tấm
-                    
-                    Cần đàn bằng gỗ Mahogany Châu Phi
-                    
-                    Mặt phím bằng gỗ Eboni
-                    
-                    Bao đàn chắc chắn bọc xung quanh"</p>
-                <p class="price"><del>26.00.000 VND</del> 25.499.000 VND</p>
-                <button onclick="buyNow()">Buy Now</button>
+          <div class="headline">
+          <h1 class="title">Sản phẩm nổi bậc</h1>
+          <p class="type">Piano</p>
+          </div>
+          <div class="container">
+            <div class="featured-products">
+              <img src="../../resource/picture/dan-piano-kawai-k300.jpg" alt="Piano">
+              <h2>Piano Kawai K300</h2>
+              <p class="price">
+                130.000.000VND<span>134.000.000VND</span>
+              </p>
+              <button>Mua ngay!!</button>
             </div>
-
-            <div class="product">
-                <img src="../../resource/picture/piano-dien-yamaha-e502-1.jpg" alt="Piano">
-                <h2>Piano điện yamaha E502</h2>
-                <p class="description">Đàn piano Yamaha E502 là một phiên bản đàn piano điện giả cơ đang được rất nhiều khách hàng ưa chuộng, nhằm tạo ra một sản phẩm kết hợp hài hòa giữa piano cơ và piano điện. Yamaha E502 có thiết kế tuyệt đẹp giống như một cây đàn cơ, nhưng lại trang bị nhiều tính năng ưu việt, cao cấp của một cây đàn piano điện..</p>
-                <p class="price"><del>12.500.000 VND</del> 13.499.000 VND</p></p>
-                <button onclick="buyNow()">Buy Now</button>
+            <div class="featured-products">
+              <img src="../../resource/picture/piano-dien-yamaha-e502.jpg" alt="Piano">
+              <h2>Piano Điện Yamaha E502</h2>
+              <p class="price">
+                12.300.000VND<span>12.500.00VND</span>
+              </p>
+              <button>Mua ngay!!</button>
             </div>
-            <div class="product">
-                <img src="../../resource/picture/dan-piano-kawai-k300.jpg" alt="Piano">
-                <h2>Piano kawai K300</h2>
-                <p class="description">Đàn piano Kawai K-300 là 1 trong những dòng sản phẩm bán chạy trên thị trường Việt Nam. Sở hữu âm thanh trung thực, thiết kế tiêu chuẩn bắt mắt phù hợp cho việc học tập và giải trí. Với chiều cao 121cm, đàn piano Kawai K-300 phù hợp khi đặt vào các căn hộ cao cấp, phòng học nhạc, phòng ngủ, phòng khách với diện tích nhỏ, … đây chắc hẳn sẽ là model được ưa chuộng bởi nhiều khách hàng.</p>
-                <p class="price"><del>182.000.000 VND</del> 175.499.000 VND</p>
-                <button onclick="buyNow()">Buy Now</button>
+            <div class="featured-products">
+              <img src="../../resource/picture/piano-kawai-k15e.jpg" alt="Piano">
+              <h2>Piano Kawai K15E</h2>
+              <p class="price">
+                82.000.000VND<span>91.000.000VND</span>
+              </p>
+              <button>Mua ngay!!</button>
             </div>
-            <div class="product">
-                <img src="../../resource/picture/dan-organ-casio-ctx5000.jpg" alt="Organ">
-                <h2>Organ Casio CT-X5000</h2>
-                <p class="description">Với nhiều tính năng mới và thú vị, đàn organ Casio CT-X5000 mang lại tiềm năng âm nhạc vượt trội cho người biểu diễn đầy tham vọng. được thiết kế  với công nghệ tiên tiến, nhạc cụ này mang đến âm thanh chất lượng cao và sự linh hoạt chưa từng có.</p>
-                <p class="price"><del>10.500.000 VND</del> 9.499.000 VND</p>
-                <button onclick="buyNow()">Buy Now</button>
+            <div class="featured-products">
+              <img src="../../resource/picture/piano-roland-501r.jpg" alt="Piano">
+              <h2>Piano Roland 501R</h2>
+              <p class="price">
+                24.500.000VND<span>31.000.000VND</span>
+              </p>
+              <button>Mua ngay!!</button>
             </div>
-            <div class="product">
-                <img src="../../resource/picture/dan-organ-casiotone-cts1.jpg" alt="Organ">
-                <h2>Organ CasioTone CT-S1</h2>
-                <p class="description">cây đàn organ Casio Casiotone CT-S1 vào khoảng tháng 5/2021, với thiết kế di động, nhỏ gọn, đơn giản, dành cho những người yêu nhạc muốn thỏa sức khám phá âm nhạc ở bất cứ nơi đâu. Sở hữu nguồn âm thanh AiX sống động mạnh mẽ, tích hợp âm sắc cổ điển của Casio, hệ thống loa tích hợp công nghệ Horizontal Bass Reflex, chức năng đồng bộ âm lượng Volume-Sync EQ, khả năng kết nối ứng dụng,</p>
-                <p class="price"><del>6.000.000 VND</del> 5.499.000 VND</p>
-                <button onclick="buyNow()">Buy Now</button>
+          </div>
+          <div class="container-button">
+            <button>Xem thêm sản phẩm</button>
+          </div>
+          <div class="headline">
+          <p class="type">Organ</p>
+          </div>
+          <div class="container">
+            <div class="featured-products">
+              <img src="../../resource/picture/casio-sa-80.jpg" alt="Organ">
+              <h2>Organ Casio SA-80</h2>
+              <p class="price">
+                2.700.000VND<span>2.800.000VND</span>
+              </p>
+              <button>Mua ngay!!</button>
             </div>
-            <div class="product">
-                <img src="../../resource/picture/piano-kawai-k15e.jpg" alt="Piano">
-                <h2>Piano Kawai K-15E</h2>
-                <p class="description">Đàn piano cơ Kawai K-15E là một trong số những cây đàn mới nhất và tiên tiến nhất mà hãng Kawai vừa ra mắt. Đây là dòng đàn Upright piano Kawai có kích thước nhỏ nhất trong dòng đàn Upright piano. Đàn piano Kawai K-15E có tủ đàn nhỏ gọn hiện đại sẽ là lựa chọn hợp lý dành cho những người thiếu không gian trong nhà. Cho dù tủ đàn nhỏ, nhưng Kawai K-15E vẫn mang đến chất lượng âm thanh tròn đầy với âm lượng có thể lấp đầy cả không gian nhà bạn.</p>
-                <p class="price"><del>87.000.000 VND</del> 86.499.000 VND</p>
-                <button onclick="buyNow()">Buy Now</button>
+            <div class="featured-products">
+              <img src="../../resource/picture/dan-organ-casio-ctx5000.jpg" alt="Organ">
+              <h2>Organ Casio CTX5000</h2>
+              <p class="price">
+                9.600.000VND<span>9.790.00VND</span>
+              </p>
+              <button>Mua ngay!!</button>
             </div>
-            <div class="product">
-                <img src="../../resource/picture/cordoba-C1M-CE.jpg" alt="Guitar">
+            <div class="featured-products">
+              <img src="../../resource/picture/dan-organ-casiotone-cts1.jpg" alt="Organ">
+              <h2>Organ Casiotone CTS1</h2>
+              <p class="price">
+                5.800.000VND<span>6.390.000VND</span>
+              </p>
+              <utton>LeaMua ngay!!utton>
+            </div>
+            <div class="featured-products">
+              <img src="../../resource/picture/dan_organ_casio_CT_S200.png" alt="Organ">
+              <h2>Organ Casio CT-S200</h2>
+              <p class="price">
+                3.700.000VND<span>4.050.000VND</span>
+              </p>
+              <button>Mua ngay!!</button>
+            </div>
+          </div>
+        </div>
+        <div class="container-button">
+          <button>Xem thêm sản phẩm</button>
+        </div>
+          <div class="headline">
+            <p class="type">Guitar</p>
+            </div>
+            <div class="container">
+              <div class="featured-products">
+                <img src="../../resource/picture/cordoba-C1M-CE.jpg" alt="guitar">
                 <h2>Guitar Cordoba C1M-CE</h2>
-                <p class="description">Protégé by Córdoba C1M-CE là cây đàn guitar dây nylon được lựa chọn hàng đầu cho sinh viên ở mọi trình độ và hoàn toàn phù hợp cho cả lớp học và gia đình. Thoải mái và dễ chơi, đây là cây đàn đầu tiên tuyệt vời với giá cả phải chăng.</p>
-                <p class="price"><del>7.700.000 VND</del> 7.499.000 VND</p>
-                <button onclick="buyNow()">Buy Now</button>
+                <p class="price">
+                  6.750.000VND<span>7.790.000VND</span>
+                </p>
+                <button>Mua ngay!!</button>
+              </div>
+              <div class="featured-products">
+                <img src="../../resource/picture/guitar-Yamaha-GC22C.jpg" alt="guitar">
+                <h2>Guitar Yamaha GC22C</h2>
+                <p class="price">
+                  10.300.000VND<span>11.500.00VND</span>
+                </p>
+                <button>Mua ngay!!</button>
+              </div>
+              <div class="featured-products">
+                <img src="../../resource/picture/guitar-classic-cordoba-fusion-5.jpg" alt="guitar">
+                <h2>Guitar classic Cordoba Fusion 5</h2>
+                <p class="price">
+                  12.900.000VND<span>13.100.000VND</span>
+                </p>
+                <button>Mua ngay!!</button>
+              </div>
+              <div class="featured-products">
+                <img src="../../resource/picture/guitar-cordoba-stage.jpg" alt="guitar">
+                <h2>Guitar Cordoba Stage</h2>
+                <p class="price">
+                  18.500.000VND<span>20.300.000VND</span>
+                </p>
+                <button>Mua ngay!!</button>
+              </div>
             </div>
-            <div class="product">
-                <img src="../../resource/picture/guitar-classic-cordoba-fusion-5.jpg" alt="Guitar">
-                <h2>Guitar Cordoba Fusion 5</h2>
-                <p class="description">Guitar Classic Cordoba FUSION 5 được thiết kế dáng Cutaway giúp người chơi dễ dàng bấm ở các ngăn cao, hợp âm cuối một cách dễ dàng, vừa tăng thêm tính thẩm mỹ cho cây đàn. Mặt top của đàn là gỗ nguyên tấm Solid mang đến âm thanh trong trẻo, ấm áp, vang hơn góp phần cân bằng giữa âm Bass và âm Treble.</p>
-                <p class="price"><del>13.000.000 VND</del> 12.499.000 VND</p>
-                <button onclick="buyNow()">Buy Now</button>
-            </div>
-            <div class="product">
-                <img src="../../resource/picture/kapok-ld-14.jpg" alt="Guitar">
-                <h2>Guitar Kapok LD-14</h2>
-                <p class="description">Kapok LD-14 nằm trong phân khúc guitar phổ thông có âm cộng hưởng tốt thiết kế chắc chắn với giá bán khá thấp. Sản phẩm nổi bật về thiết kế so với các guitar cùng phân khúc nhờ lớp sơn bóng đẹp, cần đàn làm bằng gỗ mahogany (gỗ gụ) cao cấp, đem đến âm sắc ấn tượng, lưng và hông đàn làm từ gỗ laminated (gỗ ép) chất lượng cao.</p>
-                <p class="price"><del>2.100.000 VND</del> 2.000.000 VND</p>
-                <button onclick="buyNow()">Buy Now</button>
-            </div>
+          </div>
+          <div class="container-button">
+            <button>Xem thêm sản phẩm</button>
+          </div>
+          <div class="document">
             
+          </div>
         </main>
-    <footer>
-        <p>&copy; 2024 Music Store</p>
-    </footer>
-
-    <script src="script.js"></script>
-
-    </body>
+        <footer>
+          <p>&copy; 2023 Việt Nhạc Center</p>
+        </footer>
+      </body>
 </html>
