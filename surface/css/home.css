@@ -153,7 +153,7 @@ h1.title{
     font-size: 16px;
     cursor: pointer;
 }
-button{
+button #buy-now{
   font-size: 25px;
   font-family: 'Times New Roman', Times, serif;
   margin-bottom: 10px;
